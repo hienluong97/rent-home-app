@@ -98,7 +98,6 @@ final kInputBorder = OutlineInputBorder(
 
 /* Start of Font */
 
-
 final kRalewayBold = GoogleFonts.raleway(
   fontWeight: FontWeight.w700,
 );
