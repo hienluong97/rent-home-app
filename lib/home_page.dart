@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:rent_home/app_styles.dart';
 import 'package:rent_home/size_config.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:rent_home/producyt_detail_page.dart';
+import 'package:rent_home/product_detail_page.dart';
 
 class Homepage extends StatefulWidget {
   const Homepage({super.key});
@@ -211,7 +211,8 @@ class _HomepageState extends State<Homepage> {
                             Navigator.push(
                               context,
                               MaterialPageRoute(
-                                builder: ((context) => const ProductDetail()),
+                                builder: ((context) =>
+                                    const ProductDetailPage()),
                               ),
                             )
                           }),
